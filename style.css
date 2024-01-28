@@ -343,12 +343,13 @@ body {
 /* ----------------Services----------------- */
 
 
-#Myservices {
+#MyWork {
 
     color: white;
     font-family: 'Quicksand';
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+    margin-top:10vh;
 
 
 }
@@ -811,7 +812,7 @@ body {
     font-size: 1.7rem;
     text-align: center;
     font-family: 'Quicksand';
-    /* margin-top: 10vh; */
+    margin-top: 10vh;
 
 }
 
