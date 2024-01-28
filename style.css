@@ -218,7 +218,7 @@ body {
 /* --------------ABOUT--------------------- */
 
 #About_container {
-    margin-top: 20vh;
+/*     margin-top: 20vh; */
     width: 100%;
     height: 90%;
     /* border: 2px solid white; */
@@ -228,8 +228,8 @@ body {
 
     font-family: 'Quicksand';
     text-align: center;
-    font-size: 2.5rem;
-    margin-top: 10vh;
+    font-size: 2rem;
+    margin-top: 20vh;
 
 }
 
@@ -343,15 +343,17 @@ body {
 /* ----------------Services----------------- */
 
 
-#MyWork {
-
+#Myservices     {
     color: white;
     font-family: 'Quicksand';
     text-align: center;
     font-size: 1.6rem;
-    margin-top:10vh;
 
+}
 
+#Myservices h2{
+    margin-top:12vh;
+    
 }
 
 
