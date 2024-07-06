@@ -166,10 +166,11 @@ body {
 #home_text p {
     margin-top: 40px;
     padding-bottom: 30px;
-    font-family: "Pacifico", cursive;
     line-height: 4vh;
     font-size: 1rem;
     letter-spacing: 2px;
+    font-family: "Playwrite GB S", cursive;
+
 
 }
 
@@ -238,8 +239,9 @@ body {
     margin: auto;
     text-align: center;
     margin-top: 5vh;
-    font-family: "Pacifico", cursive;
-    letter-spacing: 2px;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+ 
 
 }
 
@@ -352,7 +354,7 @@ body {
 }
 
 #Myservices h2{
-    margin-top:12vh;
+    margin-top:18vh;
     
 }
 
@@ -443,7 +445,7 @@ body {
 
 .services_content p {
     text-align: justify;
-     font-family: "Pacifico", cursive;
+    font-family: "Playwrite GB S", cursive;
     line-height: 4vh;
     font-size: 1.2rem;
     letter-spacing: 2px;
@@ -809,17 +811,17 @@ body {
 
 
 #contact_me {
-
     color: white;
     font-size: 1.7rem;
     text-align: center;
     font-family: 'Quicksand';
     margin-top: 10vh;
-
+    
 }
 
 
 .storage {
+    /* border: 2px solid white; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -832,49 +834,97 @@ body {
     /* border: 2px solid white; */
 }
 
-.logos {
-    width: 27vw;
-    margin: auto;
+.social_container{
+    /* border: 2px solid white; */
+    margin-top: 1rem;
+    /* width: 100%; */
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
-    margin-top: 2vh;
-
+    
 }
 
 
+.logos {
+    /* border: 2px solid white; */
+    width: 40%;
+    height: 6rem;
+    margin: 2rem 0rem;
+    /* display: none; */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.logos img{
+    margin: 0rem 1rem;
+}
 
 .image_logo1 {
-    height: 45px;
-    width: 45px;
+    height: 3.5rem;
+    width: 3.5rem;
+    transition: width 0.5s, height 0.5s;
+    
+}
+.image_logo1:hover{
+    height: 5rem;
+    width: 5rem;
 
 }
 
 .image_logo2 {
-    height: 70px;
-    width: 70px;
+    height: 4.5rem;
+    width: 4.5rem;
+    transition: width 0.5s, height 0.5s;
 }
 
+.image_logo2:hover{
+    height: 6.5rem;
+    width: 6.5rem;
+}
 .image_logo3 {
-    height: 57px;
-    width: 57px;
+    height: 4.9rem;
+    width: 4.9rem;
+    transition: width 0.5s, height 0.5s;
+}
+.image_logo3:hover{
+    height: 6.5rem;
+    width: 6.5rem;
 }
 
 .image_logo4 {
-    height: 50px;
-    width: 50px;
+    height: 4rem;
+    width: 4rem;
+    transition: width 0.5s, height 0.5s;
+}
+
+.image_logo4:hover{
+    height: 6.3rem;
+    width: 6.3rem;
 }
 
 .image_logo5 {
-    height: 50px;
-    width: 50px;
+    height: 4rem;
+    width: 4rem;
+    margin-left:.5rem;
+    transition: width 0.5s, height 0.5s;
+}
+.image_logo5:hover{
+    height: 6.1rem;
+    width: 6.1rem;
 }
 
 .image_logo6 {
-    height: 55px;
-    width: 55px;
+    margin-left:.5rem;
+    height: 4.9rem;
+    width: 4.9rem;
+    transition: width 0.3s, height 0.3  s;
 }
-
+.image_logo6:hover{
+    height: 6.4rem;
+    width: 6.4rem;
+}
 
 /* =---------------------left -------------- */
 
