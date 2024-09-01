@@ -2,19 +2,47 @@
     margin: 0;
     padding: 0;
     color: white;
+    /* border: 2px solid yellow; */
+    /* scrollbar-width:  2px; */
+  
 
-
+    
 }
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+::-webkit-scrollbar {
+    
+      display: none;
+    }
+    
 
 html,
 body {
-    background-color: black;
+    /* background: url("stars.mp4"); */
+    background-color: transparent;
+    /* background-color: black; */
     /* background-color: white; */
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 
+}
+
+.backVideo{
+    height: auto;
+    width: 100%;
 }
 
 #myheader {
@@ -116,23 +144,13 @@ body {
 #con {
     position: relative;
     display: flex;
-    height: 500px;
+    height: auto;
+    /* border: 2px solid yellow; */
 
 
 }
 
-/* #con2 {
 
-    background-image: url(Background.jpg);
-    background-size: 100% 100%;
-    height: 50vh;
-    width: 25vw;
-    margin-left: 13vw;
-    margin-top: 12vh;
-    border: 2px solid white;
-    box-shadow: 1px 1px 15px 6px white;
-
-} */
 
 #con2 {
     background-image: url(Background.jpg);
@@ -212,7 +230,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-top: 3vh;
-    width: 18vw;
+    width: 15rem;
     height: 8vh;
     /* border: 2px solid yellow; */
 
@@ -248,7 +266,7 @@ body {
 #About_container {
 /*     margin-top: 20vh; */
     width: 100%;
-    height: 90%;
+    height:auto;
     /* border: 2px solid white; */
 }
 
@@ -256,8 +274,9 @@ body {
 
     font-family: 'Quicksand';
     text-align: center;
-    font-size: 2rem;
-    margin-top: 20vh;
+    font-size: 2.5rem;
+    margin-top: 15.5vh;
+    /* border: 2px solid yellow; */
 
 }
 
@@ -299,29 +318,44 @@ body {
 
 .content_left img {
     position: relative;
-    border: 4px solid white;
-    border-radius: 20px;
+    border: 2px solid white;
+    border-radius: 100%;
     width: 18vw;
-    height: 39vh;
+    height: auto;
 }
 
 .content_right {
     /* border: 2px solid white; */
-    height: 70vh;
+    height: 50vh;
     width: 60vw;
 }
 
+.content_right .btn_box button.active {
+    background-color: #ff004f;
+    color: white;
+  }
+
+
+/* .btn_box{
+    height: auto;
+    margin-top: -5rem;
+    padding-top: 0rem;
+border: 2px solid green;
+}  */
 .content_lists {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 80%;
+    height: autp;
     width: 80%;
     margin-left: 15px;
     box-sizing: border-box;
     display: none;
-    margin-top: 9vh;
+    margin-top: .5rem;
+    position: relative;
+    top: -2rem;
+    /* border: 2px solid blue; */
 }
 
 .content_right ul span {
@@ -333,6 +367,7 @@ body {
     list-style: none;
     color: white;
     font-size: 1.21rem;
+    font-family: "Roboto";
 }
 
 
@@ -340,6 +375,9 @@ body {
 .btn_box {
     display: flex;
     align-items: center;
+    /* border: 2px solid white; */
+    position: relative;
+    top: -2rem;
 
 }
 
@@ -351,7 +389,8 @@ body {
     background-color: black;
     border-radius: 50px;
     box-shadow: 0.5px 0.5px 2px 1.5px white;
-    margin-top: 9vh;
+    margin-top: .2rem;
+    /* border: 2px solid yellow; */
 }
 
 .btn_box :hover {
@@ -376,19 +415,21 @@ body {
     color: white;
     font-family: 'Quicksand';
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
+    /* border: 2px solid yellow; */
 
 }
 
 #Myservices h2{
-    margin-top:18vh;
+    margin:3rem 0rem;
+    
     
 }
 
 
 
 .services {
-    height: 50%;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -406,7 +447,7 @@ body {
     margin-bottom: 20vh;
     height: 35vh;
     width: 14vw;
-    background-color: #262626;
+    /* background-color: #262626 */
     transition: background 0.5s, transform 0.5s;
     box-shadow: 1px 1px 10px 2px white;
     border: 1px solid white;
@@ -440,14 +481,17 @@ body {
 
 @keyframes colorChange {
 
-    30%{
+    20%{
         color:yellow
     }
-    50%{
+    40%{
         color: white;
     }
-    70%{
+    60%{
         color: yellow;
+    }
+    80%{
+        color:white;
     }
 }
 
@@ -456,7 +500,7 @@ body {
 }
 
 .containers:hover {
-    background-color: #ff004f;
+    background-color: #333;
     transform: scale(1.05);
 
 
@@ -842,7 +886,8 @@ body {
     font-size: 1.7rem;
     text-align: center;
     font-family: 'Quicksand';
-    margin-top: 10vh;
+    margin-top: 1rem;
+    /* border: 2px solid yellow; */
     
 }
 
@@ -856,7 +901,7 @@ body {
     padding: 3.5vh 3vw;
     color: white;
     font-size: 1.5rem;
-    height: 55vh;
+    height: auto;
     width: 90vw;
     /* border: 2px solid white; */
 }
@@ -876,7 +921,7 @@ body {
     /* border: 2px solid white; */
     width: 40%;
     height: 6rem;
-    margin: 2rem 0rem;
+    margin: .5rem 0rem;
     /* display: none; */
     cursor: pointer;
     display: flex;
@@ -1155,6 +1200,7 @@ body {
 
 #right {
     height: 60vh;
+    /* background-color: grey; */
     width: 40vw;
     /* border: 2px solid white; */
 }
@@ -1178,18 +1224,23 @@ body {
 
     width: 20vw;
     height: 6vh;
-    background-color: #262626;
+    /* background-color: #262626; */
+    background-color: transparent;
     font-family: 'Quicksand';
     font-size: 1.2rem;
     border: 1px solid white;
     padding-left: 10px;
+    
 }
+
+
 
 #take_email {
     font-size: 1.2rem;
     width: 20vw;
     height: 6vh;
-    background-color: #262626;
+    /* background-color: #262626; */
+    background-color: transparent;
     font-family: 'Quicksand';
     border: 1px solid white;
     padding-left: 10px;
@@ -1201,7 +1252,8 @@ body {
     font-family: 'Quicksand';
     width: 20vw;
     height: 15vh;
-    background-color: #262626;
+    /* background-color: #262626; */
+    background-color: transparent;
     border: 1px solid white;
     padding-left: 10px;
 }
@@ -1211,22 +1263,23 @@ body {
     width: 21vw;
     font-size: 1rem;
     border-radius: 0px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
 }
 
 #myfooter {
-    width: 100vw;
+    width: 100%;
     height: 5vh;
     display: flex;
-
+    /* border: 2px solid yellow; */
     justify-content: center;
     align-items: center;
+    margin-top: 15vh;
 }
 
 #myfooter p {
 
     text-align: center;
     width: 90vw;
-    margin-top: 15vh;
+    /* margin-top: 15vh; */
     font-size: 1.5rem;
 }

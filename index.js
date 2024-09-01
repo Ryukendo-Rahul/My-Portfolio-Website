@@ -1,17 +1,34 @@
 
 
-//Tab switching of my skills
-// var tabButtons = document.querySelectorAll(".content_right .btn_box button");
+
+// Tab switching of my skills
+var tabButtons = document.querySelectorAll(".content_right .btn_box button");
 var tabPanels = document.querySelectorAll(".content_right .content_lists");
 
-function showPanel(panelIndex) {
-    tabPanels.forEach(function (tabs) {
-        tabs.style.display = "none";
-    });
-    tabPanels[panelIndex].style.display = "block";
+// Add event listener to tab buttons
+tabButtons.forEach((button, index) => {
+  button.addEventListener("click", () => {
+    // Remove active class from all buttons
+    tabButtons.forEach((btn) => btn.classList.remove("active"));
+    // Add active class to current button
+    button.classList.add("active");
+    // Show corresponding tab panel
+    showPanel(index);
+  });
+});
 
+function showPanel(panelIndex) {
+  tabPanels.forEach((tabs) => {
+    tabs.style.display = "none";
+  });
+  tabPanels[panelIndex].style.display = "block";
 }
-showPanel(0, '');
+
+// Initialize first tab
+tabButtons[0].classList.add("active");
+showPanel(0);
+
+
 
 
 
@@ -83,3 +100,8 @@ social_5.addEventListener('click', function() {
 social_6.addEventListener('click', function() {
     openLink('https://github.com');
 });
+
+
+
+//My services js
+
