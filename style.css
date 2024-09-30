@@ -624,18 +624,11 @@ border: 2px solid green;
     background-size: 100% 100%;
 }
 
-/* .proj6 {
-    background-size: 100% 100%;
+.proj6 {
+    background-size: 100% 100% !important;
+    /* background-size: contain; */
+    background: url(charity.png);
 }
-.proj7 {
-    background-size: 100% 100%;
-}
-.proj8 {
-    background-size: 100% 100%;
-}
-.proj9 {
-    background-size: 100% 100%;
-} */
 
 
 .sketch_heading h2 {
