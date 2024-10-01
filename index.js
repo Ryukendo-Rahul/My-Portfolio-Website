@@ -83,22 +83,22 @@ const social_6 = document.querySelector(".image_logo6" );
 
 
 social_1.addEventListener('click', function() {
-    openLink('https://linkedin.com');
+    openLink('https://www.linkedin.com/in/rahul-mandal-ryukendo/');
 });
 social_2.addEventListener('click', function() {
-    openLink('https://twitter.com');
+    openLink('https://x.com/rahulmandal7231');
 });
 social_3.addEventListener('click', function() {
-    openLink('https://instagram.com');
+    openLink('https://www.instagram.com/r_a_h_u_l______23/');
 });
 social_4.addEventListener('click', function() {
-    openLink('https://telegram.com');
+    openLink('http://t.me/R_y_u_k_e_n_d_o');
 });
 social_5.addEventListener('click', function() {
     openLink('https://facebook.com');
 });
 social_6.addEventListener('click', function() {
-    openLink('https://github.com');
+    openLink('https://github.com/Ryukendo-Rahul');
 });
 
 
