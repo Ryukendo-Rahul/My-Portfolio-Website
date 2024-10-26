@@ -320,8 +320,8 @@ body {
     position: relative;
     border: 2px solid white;
     border-radius: 100%;
-    width: 18vw;
-    height: auto;
+    width: 30vw;
+    height: 59vh;
 }
 
 .content_right {
